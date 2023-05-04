@@ -16,4 +16,5 @@ exports = function testHello(changeEvents){
   */
   console.log("Test sub");
   console.log("test ");
+  console.log("More hello")
 };
