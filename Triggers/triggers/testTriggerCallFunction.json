@@ -1,0 +1,30 @@
+{
+    "name": "testTriggerCallFunction",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "DELETE",
+            "REPLACE"
+        ],
+        "database": "triggers",
+        "collection": "country",
+        "service_name": "Sandbox",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": true
+    },
+    "disabled": true,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_testTriggerCallFunction_1678463916"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "trigger0",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "DELETE"
+        ],
+        "database": "triggers",
+        "collection": "country",
+        "service_name": "Sandbox",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_trigger0_1677591901"
+            }
+        }
+    }
+}
