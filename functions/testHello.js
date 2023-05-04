@@ -15,5 +15,5 @@ exports = function testHello(changeEvents){
     Try running in the console below.
   */
   console.log("Test sub");
-  console.log("test hello");
+  console.log("test ");
 };
